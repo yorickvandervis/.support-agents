@@ -5,6 +5,9 @@ A practical approach to enhancing coding agent responses by including source cod
 ## Included Libraries
 
 - **Drizzle ORM** (beta branch) - `resources/drizzle-orm`
+- **Effect.ts** (main branch) - `resources/effect`
+- **Svelte** (main branch) - `resources/svelte.dev`
+- **OpenCode** (dev branch) - `resources/opencode`
 
 ## Setup
 
@@ -40,7 +43,18 @@ To pull the latest changes from upstream:
 
 ```bash
 cd ~/.support-agents
+
+# Drizzle ORM
 git subtree pull --prefix=resources/drizzle-orm https://github.com/drizzle-team/drizzle-orm.git beta --squash
+
+# Effect.ts
+git subtree pull --prefix=resources/effect https://github.com/Effect-TS/effect.git main --squash
+
+# Svelte
+git subtree pull --prefix=resources/svelte.dev https://github.com/sveltejs/svelte.dev.git main --squash
+
+# OpenCode
+git subtree pull --prefix=resources/opencode https://github.com/sst/opencode.git dev --squash
 ```
 
 ## Adding More Libraries
@@ -63,7 +77,10 @@ Then create corresponding command files in `OPENCODE_ASSETS/command/` and update
 │   ├── command/         # Slash command definitions
 │   └── themes/          # OpenCode themes
 ├── resources/
-│   └── drizzle-orm/     # Drizzle ORM source (beta branch)
+│   ├── drizzle-orm/     # Drizzle ORM source (beta branch)
+│   ├── effect/          # Effect.ts source (main branch)
+│   ├── svelte.dev/      # Svelte docs (main branch)
+│   └── opencode/        # OpenCode source (dev branch)
 ├── init.sh              # Setup script
 └── README.md
 ```
