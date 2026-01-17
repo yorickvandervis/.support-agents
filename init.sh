@@ -13,9 +13,9 @@ mkdir -p ~/.config/opencode/agent
 mkdir -p ~/.config/opencode/command
 mkdir -p ~/.config/opencode/themes
 
-cp -u ~/.support-agents/OPENCODE_ASSETS/agent/* ~/.config/opencode/agent/
-cp -u ~/.support-agents/OPENCODE_ASSETS/command/* ~/.config/opencode/command/
-cp -u ~/.support-agents/OPENCODE_ASSETS/themes/* ~/.config/opencode/themes/
+rsync -u ~/.support-agents/OPENCODE_ASSETS/agent/* ~/.config/opencode/agent/
+rsync -u ~/.support-agents/OPENCODE_ASSETS/command/* ~/.config/opencode/command/
+rsync -u ~/.support-agents/OPENCODE_ASSETS/themes/* ~/.config/opencode/themes/
 
 echo "Done! OpenCode assets installed to ~/.config/opencode/"
 echo ""
