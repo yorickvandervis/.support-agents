@@ -13,25 +13,31 @@ You will need to run the following commands in this directory: `~/.support-agent
 
 Execute the following git subtree pull commands in sequence to update each repository:
 
-1. **Update Drizzle ORM**
+1. **Update Drizzle ORM (beta)**
 
    ```bash
-   git subtree pull --prefix resources/drizzle-orm https://github.com/drizzle-team/drizzle-orm.git beta --squash
+   git subtree pull --prefix resources/drizzle-orm-beta https://github.com/drizzle-team/drizzle-orm.git beta --squash
    ```
 
-2. **Update Effect.ts**
+2. **Update Drizzle ORM (main)**
+
+   ```bash
+   git subtree pull --prefix resources/drizzle-orm-main https://github.com/drizzle-team/drizzle-orm.git main --squash
+   ```
+
+3. **Update Effect.ts**
 
    ```bash
    git subtree pull --prefix resources/effect https://github.com/Effect-TS/effect.git main --squash
    ```
 
-3. **Update Svelte docs**
+4. **Update Svelte docs**
 
    ```bash
    git subtree pull --prefix resources/svelte.dev https://github.com/sveltejs/svelte.dev.git main --squash
    ```
 
-4. **Update OpenCode**
+5. **Update OpenCode**
 
    ```bash
    git subtree pull --prefix resources/opencode https://github.com/sst/opencode.git dev --squash

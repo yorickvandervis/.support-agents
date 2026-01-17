@@ -4,7 +4,8 @@ A practical approach to enhancing coding agent responses by including source cod
 
 ## Included Libraries
 
-- **Drizzle ORM** (beta branch) - `resources/drizzle-orm`
+- **Drizzle ORM** (beta branch) - `resources/drizzle-orm-beta`
+- **Drizzle ORM** (main branch) - `resources/drizzle-orm-main`
 - **Effect.ts** (main branch) - `resources/effect`
 - **Svelte** (main branch) - `resources/svelte.dev`
 - **OpenCode** (dev branch) - `resources/opencode`
@@ -44,8 +45,11 @@ To pull the latest changes from upstream:
 ```bash
 cd ~/.support-agents
 
-# Drizzle ORM
-git subtree pull --prefix=resources/drizzle-orm https://github.com/drizzle-team/drizzle-orm.git beta --squash
+# Drizzle ORM (beta)
+git subtree pull --prefix=resources/drizzle-orm-beta https://github.com/drizzle-team/drizzle-orm.git beta --squash
+
+# Drizzle ORM (main)
+git subtree pull --prefix=resources/drizzle-orm-main https://github.com/drizzle-team/drizzle-orm.git main --squash
 
 # Effect.ts
 git subtree pull --prefix=resources/effect https://github.com/Effect-TS/effect.git main --squash
@@ -77,7 +81,8 @@ Then create corresponding command files in `OPENCODE_ASSETS/command/` and update
 │   ├── command/         # Slash command definitions
 │   └── themes/          # OpenCode themes
 ├── resources/
-│   ├── drizzle-orm/     # Drizzle ORM source (beta branch)
+│   ├── drizzle-orm-beta/ # Drizzle ORM source (beta branch)
+│   ├── drizzle-orm-main/ # Drizzle ORM source (main branch)
 │   ├── effect/          # Effect.ts source (main branch)
 │   ├── svelte.dev/      # Svelte docs (main branch)
 │   └── opencode/        # OpenCode source (dev branch)

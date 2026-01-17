@@ -1,0 +1,250 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "auroraBg": "#1b1e28",
+    "auroraFocus": "#303340",
+    "auroraGray": "#a6accd",
+    "auroraDarkerGray": "#767c9d",
+    "auroraBluishGray": "#506477",
+    "auroraOffWhite": "#e4f0fb",
+    "auroraBrightMint": "#5DE4c7",
+    "auroraStrongTurquoise": "#00CED1",
+    "auroraLowerMint": "#5fb3a1",
+    "auroraLightBlue": "#ADD7FF",
+    "auroraLowerBlue": "#89ddff",
+    "auroraDesaturatedBlue": "#91B4D5",
+    "auroraHotRed": "#d0679d",
+    "auroraPink": "#f087bd",
+    "auroraBrightYellow": "#fffac2",
+    "auroraBluishGrayBrighter": "#7390AA",
+    "auroraSelection": "#717cb425",
+    "auroraWhite": "#ffffff",
+    "auroraBlack": "#000000"
+  },
+  "theme": {
+    "primary": {
+      "dark": "auroraBrightMint",
+      "light": "auroraBrightMint"
+    },
+    "secondary": {
+      "dark": "auroraDesaturatedBlue",
+      "light": "auroraDesaturatedBlue"
+    },
+    "accent": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "error": {
+      "dark": "auroraHotRed",
+      "light": "auroraHotRed"
+    },
+    "warning": {
+      "dark": "auroraBrightYellow",
+      "light": "auroraBrightYellow"
+    },
+    "success": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "info": {
+      "dark": "auroraBrightMint",
+      "light": "auroraBrightMint"
+    },
+    "text": {
+      "dark": "auroraGray",
+      "light": "auroraBluishGray"
+    },
+    "textMuted": {
+      "dark": "auroraDarkerGray",
+      "light": "auroraBluishGray"
+    },
+    "background": {
+      "dark": "auroraBg",
+      "light": "auroraOffWhite"
+    },
+    "backgroundPanel": {
+      "dark": "auroraFocus",
+      "light": "auroraBluishGrayBrighter"
+    },
+    "backgroundElement": {
+      "dark": "auroraFocus",
+      "light": "auroraGray"
+    },
+    "border": {
+      "dark": "auroraBluishGray",
+      "light": "auroraDarkerGray"
+    },
+    "borderActive": {
+      "dark": "auroraDarkerGray",
+      "light": "auroraBluishGray"
+    },
+    "borderSubtle": {
+      "dark": "auroraBluishGray",
+      "light": "auroraDarkerGray"
+    },
+    "diffAdded": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "diffRemoved": {
+      "dark": "auroraHotRed",
+      "light": "auroraHotRed"
+    },
+    "diffContext": {
+      "dark": "auroraDarkerGray",
+      "light": "auroraDarkerGray"
+    },
+    "diffHunkHeader": {
+      "dark": "auroraDarkerGray",
+      "light": "auroraDarkerGray"
+    },
+    "diffHighlightAdded": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "diffHighlightRemoved": {
+      "dark": "auroraHotRed",
+      "light": "auroraHotRed"
+    },
+    "diffAddedBg": {
+      "dark": "#303340",
+      "light": "#e4f0fb"
+    },
+    "diffRemovedBg": {
+      "dark": "#303340",
+      "light": "#e4f0fb"
+    },
+    "diffContextBg": {
+      "dark": "auroraFocus",
+      "light": "auroraBluishGrayBrighter"
+    },
+    "diffLineNumber": {
+      "dark": "auroraBluishGray",
+      "light": "auroraGray"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#303340",
+      "light": "#e4f0fb"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#303340",
+      "light": "#e4f0fb"
+    },
+    "markdownText": {
+      "dark": "auroraGray",
+      "light": "auroraBluishGray"
+    },
+    "markdownHeading": {
+      "dark": "auroraBrightMint",
+      "light": "auroraBrightMint"
+    },
+    "markdownLink": {
+      "dark": "auroraDesaturatedBlue",
+      "light": "auroraDesaturatedBlue"
+    },
+    "markdownLinkText": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "markdownCode": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "markdownBlockQuote": {
+      "dark": "auroraDarkerGray",
+      "light": "auroraDarkerGray"
+    },
+    "markdownEmph": {
+      "dark": "auroraPink",
+      "light": "auroraPink"
+    },
+    "markdownStrong": {
+      "dark": "auroraBrightYellow",
+      "light": "auroraBrightYellow"
+    },
+    "markdownHorizontalRule": {
+      "dark": "auroraDarkerGray",
+      "light": "auroraDarkerGray"
+    },
+    "markdownListItem": {
+      "dark": "auroraBrightMint",
+      "light": "auroraBrightMint"
+    },
+    "markdownListEnumeration": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "markdownImage": {
+      "dark": "auroraDesaturatedBlue",
+      "light": "auroraDesaturatedBlue"
+    },
+    "markdownImageText": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "markdownCodeBlock": {
+      "dark": "auroraGray",
+      "light": "auroraBluishGray"
+    },
+    "syntaxComment": {
+      "dark": "auroraDarkerGray",
+      "light": "auroraDarkerGray"
+    },
+    "syntaxKeyword": {
+      "dark": "auroraDesaturatedBlue",
+      "light": "auroraDesaturatedBlue"
+    },
+    "syntaxFunction": {
+      "dark": "auroraBrightMint",
+      "light": "auroraBrightMint"
+    },
+    "syntaxVariable": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "syntaxString": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "syntaxNumber": {
+      "dark": "auroraPink",
+      "light": "auroraPink"
+    },
+    "syntaxType": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "syntaxOperator": {
+      "dark": "auroraDesaturatedBlue",
+      "light": "auroraDesaturatedBlue"
+    },
+    "syntaxPunctuation": {
+      "dark": "auroraGray",
+      "light": "auroraBluishGray"
+    },
+    "inputBackground": {
+      "dark": "auroraBg",
+      "light": "auroraOffWhite"
+    },
+    "InputBorder": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "InputBorderActive": {
+      "dark": "auroraLowerMint",
+      "light": "auroraLowerMint"
+    },
+    "inputPrompt": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "inputCursor": {
+      "dark": "auroraStrongTurquoise",
+      "light": "auroraStrongTurquoise"
+    },
+    "inputText": {
+      "dark": "auroraOffWhite",
+      "light": "auroraBluishGray"
+    }
+  }
+}

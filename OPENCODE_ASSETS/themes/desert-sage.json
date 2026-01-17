@@ -1,0 +1,251 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "desertSand": "#faf6f1",
+    "desertSandDarker": "#f0e9df",
+    "desertWarmGray": "#e5ddd2",
+    "desertStone": "#c4b9a8",
+    "desertDriftwood": "#8a7f72",
+    "desertCharcoal": "#3d3a36",
+    "desertBrown": "#5c574f",
+    "desertSage": "#6b8f71",
+    "desertSageLight": "#8fb094",
+    "desertSageMuted": "#7a9e7e",
+    "desertTerracotta": "#c4785a",
+    "desertTerracottaLight": "#d4927a",
+    "desertCoral": "#c75d4d",
+    "desertAmber": "#c9a227",
+    "desertGold": "#b8972a",
+    "desertTeal": "#4a7c7c",
+    "desertTealLight": "#5d9494",
+    "desertSlate": "#7a8b99",
+    "desertCream": "#fffcf7",
+    "desertInk": "#2d2a27"
+  },
+  "theme": {
+    "primary": {
+      "dark": "desertSage",
+      "light": "desertSage"
+    },
+    "secondary": {
+      "dark": "desertTeal",
+      "light": "desertTeal"
+    },
+    "accent": {
+      "dark": "desertTerracotta",
+      "light": "desertTerracotta"
+    },
+    "error": {
+      "dark": "desertCoral",
+      "light": "desertCoral"
+    },
+    "warning": {
+      "dark": "desertAmber",
+      "light": "desertGold"
+    },
+    "success": {
+      "dark": "desertSage",
+      "light": "desertSage"
+    },
+    "info": {
+      "dark": "desertTeal",
+      "light": "desertTeal"
+    },
+    "text": {
+      "dark": "desertSand",
+      "light": "desertCharcoal"
+    },
+    "textMuted": {
+      "dark": "desertStone",
+      "light": "desertDriftwood"
+    },
+    "background": {
+      "dark": "desertCharcoal",
+      "light": "desertSand"
+    },
+    "backgroundPanel": {
+      "dark": "desertBrown",
+      "light": "desertSandDarker"
+    },
+    "backgroundElement": {
+      "dark": "desertBrown",
+      "light": "desertWarmGray"
+    },
+    "border": {
+      "dark": "desertDriftwood",
+      "light": "desertStone"
+    },
+    "borderActive": {
+      "dark": "desertStone",
+      "light": "desertDriftwood"
+    },
+    "borderSubtle": {
+      "dark": "desertDriftwood",
+      "light": "desertWarmGray"
+    },
+    "diffAdded": {
+      "dark": "desertSage",
+      "light": "desertSage"
+    },
+    "diffRemoved": {
+      "dark": "desertCoral",
+      "light": "desertCoral"
+    },
+    "diffContext": {
+      "dark": "desertDriftwood",
+      "light": "desertDriftwood"
+    },
+    "diffHunkHeader": {
+      "dark": "desertDriftwood",
+      "light": "desertDriftwood"
+    },
+    "diffHighlightAdded": {
+      "dark": "desertSageLight",
+      "light": "desertSage"
+    },
+    "diffHighlightRemoved": {
+      "dark": "desertTerracottaLight",
+      "light": "desertCoral"
+    },
+    "diffAddedBg": {
+      "dark": "#3d4a3e",
+      "light": "#e8f0e9"
+    },
+    "diffRemovedBg": {
+      "dark": "#4a3d3a",
+      "light": "#f5e8e6"
+    },
+    "diffContextBg": {
+      "dark": "desertBrown",
+      "light": "desertSandDarker"
+    },
+    "diffLineNumber": {
+      "dark": "desertDriftwood",
+      "light": "desertStone"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#3d4a3e",
+      "light": "#e8f0e9"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#4a3d3a",
+      "light": "#f5e8e6"
+    },
+    "markdownText": {
+      "dark": "desertSand",
+      "light": "desertCharcoal"
+    },
+    "markdownHeading": {
+      "dark": "desertSage",
+      "light": "desertSage"
+    },
+    "markdownLink": {
+      "dark": "desertTealLight",
+      "light": "desertTeal"
+    },
+    "markdownLinkText": {
+      "dark": "desertTerracottaLight",
+      "light": "desertTerracotta"
+    },
+    "markdownCode": {
+      "dark": "desertTealLight",
+      "light": "desertTeal"
+    },
+    "markdownBlockQuote": {
+      "dark": "desertStone",
+      "light": "desertDriftwood"
+    },
+    "markdownEmph": {
+      "dark": "desertTerracottaLight",
+      "light": "desertTerracotta"
+    },
+    "markdownStrong": {
+      "dark": "desertAmber",
+      "light": "desertGold"
+    },
+    "markdownHorizontalRule": {
+      "dark": "desertDriftwood",
+      "light": "desertStone"
+    },
+    "markdownListItem": {
+      "dark": "desertSageLight",
+      "light": "desertSage"
+    },
+    "markdownListEnumeration": {
+      "dark": "desertTerracottaLight",
+      "light": "desertTerracotta"
+    },
+    "markdownImage": {
+      "dark": "desertTealLight",
+      "light": "desertTeal"
+    },
+    "markdownImageText": {
+      "dark": "desertTerracottaLight",
+      "light": "desertTerracotta"
+    },
+    "markdownCodeBlock": {
+      "dark": "desertSand",
+      "light": "desertCharcoal"
+    },
+    "syntaxComment": {
+      "dark": "desertStone",
+      "light": "desertDriftwood"
+    },
+    "syntaxKeyword": {
+      "dark": "desertTerracottaLight",
+      "light": "desertTerracotta"
+    },
+    "syntaxFunction": {
+      "dark": "desertSageLight",
+      "light": "desertSage"
+    },
+    "syntaxVariable": {
+      "dark": "desertTealLight",
+      "light": "desertTeal"
+    },
+    "syntaxString": {
+      "dark": "desertSageLight",
+      "light": "desertSage"
+    },
+    "syntaxNumber": {
+      "dark": "desertAmber",
+      "light": "desertGold"
+    },
+    "syntaxType": {
+      "dark": "desertTealLight",
+      "light": "desertTeal"
+    },
+    "syntaxOperator": {
+      "dark": "desertTerracottaLight",
+      "light": "desertTerracotta"
+    },
+    "syntaxPunctuation": {
+      "dark": "desertStone",
+      "light": "desertBrown"
+    },
+    "inputBackground": {
+      "dark": "desertCharcoal",
+      "light": "desertCream"
+    },
+    "InputBorder": {
+      "dark": "desertSage",
+      "light": "desertStone"
+    },
+    "InputBorderActive": {
+      "dark": "desertSageLight",
+      "light": "desertSage"
+    },
+    "inputPrompt": {
+      "dark": "desertSage",
+      "light": "desertSage"
+    },
+    "inputCursor": {
+      "dark": "desertTerracotta",
+      "light": "desertTerracotta"
+    },
+    "inputText": {
+      "dark": "desertSand",
+      "light": "desertInk"
+    }
+  }
+}
