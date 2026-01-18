@@ -11,8 +11,9 @@ if (-not $ScriptDir) {
     $ScriptDir = $PWD.Path
 }
 
-# OpenCode config directory on Windows
-$OpenCodeConfig = Join-Path $env:APPDATA "opencode"
+# OpenCode uses xdg-basedir which on Windows defaults to ~/.config (Unix-style paths)
+# NOT %APPDATA% - this matches the behavior of the xdg-basedir npm package
+$OpenCodeConfig = Join-Path $env:USERPROFILE ".config\opencode"
 
 Write-Host "Configuring OpenCode..." -ForegroundColor Cyan
 
