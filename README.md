@@ -55,15 +55,10 @@ git clone <your-repo-url> $env:USERPROFILE\.support-agents
 Run the PowerShell init script:
 
 ```powershell
-& "$env:USERPROFILE\.support-agents\init.ps1"
+powershell -ExecutionPolicy Bypass -File "$env:USERPROFILE\.support-agents\init.ps1"
 ```
 
 This will copy assets to `%APPDATA%\opencode\` (typically `C:\Users\<username>\AppData\Roaming\opencode\`).
-
-**Note:** If you get an execution policy error, run PowerShell as Administrator and execute:
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
 
 ## Updating Libraries
 
