@@ -12,13 +12,23 @@ A practical approach to enhancing coding agent responses by including source cod
 
 ## Setup
 
-### 1. Clone the repository
+### Linux / macOS
+
+#### 1. Clone the repository
 
 ```bash
 git clone <your-repo-url> ~/.support-agents
 ```
 
-### 2. Initialize OpenCode assets
+#### 2. Initialize OpenCode assets
+
+Run the init script:
+
+```bash
+~/.support-agents/init.sh
+```
+
+Or manually copy the assets:
 
 ```bash
 # Create OpenCode config directories if they don't exist
@@ -27,15 +37,32 @@ mkdir -p ~/.config/opencode/command
 mkdir -p ~/.config/opencode/themes
 
 # Copy assets (only overwrites if source is newer)
-cp -u ~/.support-agents/OPENCODE_ASSETS/agent/* ~/.config/opencode/agent/
-cp -u ~/.support-agents/OPENCODE_ASSETS/command/* ~/.config/opencode/command/
-cp -u ~/.support-agents/OPENCODE_ASSETS/themes/* ~/.config/opencode/themes/
+rsync -u ~/.support-agents/OPENCODE_ASSETS/agent/* ~/.config/opencode/agent/
+rsync -u ~/.support-agents/OPENCODE_ASSETS/command/* ~/.config/opencode/command/
+rsync -u ~/.support-agents/OPENCODE_ASSETS/themes/* ~/.config/opencode/themes/
 ```
 
-Or run the init script:
+### Windows
 
-```bash
-~/.support-agents/init.sh
+#### 1. Clone the repository
+
+```powershell
+git clone <your-repo-url> $env:USERPROFILE\.support-agents
+```
+
+#### 2. Initialize OpenCode assets
+
+Run the PowerShell init script:
+
+```powershell
+& "$env:USERPROFILE\.support-agents\init.ps1"
+```
+
+This will copy assets to `%APPDATA%\opencode\` (typically `C:\Users\<username>\AppData\Roaming\opencode\`).
+
+**Note:** If you get an execution policy error, run PowerShell as Administrator and execute:
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 ## Updating Libraries
@@ -86,6 +113,7 @@ Then create corresponding command files in `OPENCODE_ASSETS/command/` and update
 │   ├── effect/          # Effect.ts source (main branch)
 │   ├── svelte.dev/      # Svelte docs (main branch)
 │   └── opencode/        # OpenCode source (dev branch)
-├── init.sh              # Setup script
+├── init.sh              # Setup script (Linux/macOS)
+├── init.ps1             # Setup script (Windows)
 └── README.md
 ```
